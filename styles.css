@@ -1,0 +1,18 @@
+/* Remove padding and margin */ 
+  *{
+      margin: 0;
+      padding: 0;
+      border: 0;
+  }
+  
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    justify-content: space-between;
+  }
