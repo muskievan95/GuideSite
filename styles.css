@@ -11,7 +11,7 @@
   /* The image used */
   background-image: url("/Img/bigtiger.jpg");
   display: flex;
-  min-height: 980px;
+  min-height: 1000px;
  
 
   /* Center and scale the image nicely */
@@ -29,7 +29,7 @@
   justify-content: flex-end;
   flex-direction: row;
   width: 80%;
-  gap: 1rem;
+  gap: 3rem;
   padding-right: 3rem;
   padding-top: .5rem;
 }
@@ -66,7 +66,8 @@ a:hover{
   color:#F7F3E8;
   font-family: 'Abel', sans-serif;
   font-size: 18px;
-  justify-content: space-evenly;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .sec{
