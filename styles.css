@@ -1,64 +1,74 @@
-/* Remove padding and margin */ 
-  *{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-  }
 
-  nav{
-    display: flex;
-    justify-content: space-between;
-   
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 
-  }
+}
+ 
+
+.bg-img {
+  /* The image used */
+  background-image: url("/Img/bigtiger.jpg");
+  display: flex;
+  min-height: 980px;
+ 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   
-  img{
-   border-bottom-right-radius: 15px;
-  }
+  /* Needed to position the navbar */
+  position: relative;
+}
 
-  ul{
-    display: flex;
-    width: 21%;
-    margin-inline-start: auto;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  li{
-    list-style: none;
-  }
-
- a{
-    text-decoration: none;
-    color: #06132D;
-    font-family: 'Abel', sans-serif;
-    font-size: 14px;
-  }
-
-  .round{
-    display: flex;
-    background-color: #06132D;
-    width:  250px;
-    height: 45px;
-    align-items: center;
-    justify-content: space-evenly;
-    border-bottom-left-radius: 15px;
-  }
-  .round a{
-    color:#F7F3E8;
-    font-family: 'Abel', sans-serif;
-    font-size: 14px;
-  }
-
-  .muskiebanner {
-    width: 1440px;
-    height: 721px;
-    z-index: -1;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
+/*postion of navbar*/
+.topnav{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  width: 80%;
+  gap: 1rem;
+  padding-right: 3rem;
+  padding-top: .5rem;
+}
+a{
+  text-decoration: none;
+  color: #F7F3E8;
+  font-family: 'Abel', sans-serif;
+  font-size: 18px;
+  align-items: center;
   
-  
+}
+a:hover{
+  color: #06132D;
+  cursor: pointer;
+}
 
+.logo img{
+  border-bottom-right-radius: 15px;
+  display: flex;
   
+}
+
+.--contact{
+  display: flex;
+  background-color: #06132D;
+  width:  250px;
+  height: 45px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom-left-radius: 15px;
+  
+}
+.--contact a{
+  color:#F7F3E8;
+  font-family: 'Abel', sans-serif;
+  font-size: 18px;
+  justify-content: space-evenly;
+}
+
+.sec{
+  background-color: #06132D;
+ 
